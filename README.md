@@ -19,15 +19,15 @@ Assignment 1, VIZA 626 Generative Art &amp; Design (Spring 2025)
 <div align="center">
   </a>
 
-  <h3 align="center">4-Comma: My Title Here</h3>
+  <h3 align="center">Fresnel Effect: Ghostly Shader</h3>
 
   <p align="center">
-    Short two sentence project desctiption here!
+    I created a four-panel yonkoma comic where a stick figure interacts with an AI-generated image that has actually has fingers. The humor      comes from the stick figure earnestly commenting on how realistic the AI image looks, oblivious to its glaring anatomical mistakes. They look down at their fingerless hands and realize that they can't really comment on what's real or not. 
     <br />
-    <a href="https://github.com/yujnkm/4-comma-Assignment_01/blob/main/pdf/Reality-Distortion-Room-ISMAR-23.pdf"><strong>Link to PDF Report »</strong></a>
+    <a href="https://github.com/woumjai/Assignment01_4-Koma/blob/main/pdf/First_Name_Ei_Last_Name_Eye.pdf"><strong>Link to PDF Report »</strong></a>
     <br />
     <br />
-    <a href="https://website.com">Your Name</a>
+    <a href="https://carhua.myportfolio.com">Carolyn Hua</a>
     &middot;
     <a href="https://sites.google.com/view/viza626/home">VIZA 626</a>
   </p>
