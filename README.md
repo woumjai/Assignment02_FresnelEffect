@@ -109,9 +109,10 @@ Figure 6. description for Figure 6
 <!-- CONTACT -->
 ## Contact
 
-Your Name - email@tamu.edu
+Carolyn Hua - chua@tamu.edu
 
-Personal Website: [https://website.com](https://website.com)
+Personal Website: [https://carhua.myportfolio.com](https://carhua.myportfolio.com/)
+[2][3]
 
 
 
