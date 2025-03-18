@@ -22,7 +22,7 @@ Assignment 1, VIZA 626 Generative Art &amp; Design (Spring 2025)
   <h3 align="center">Fresnel Effect: Ghostly Shader</h3>
 
   <p align="center">
-    I created a four-panel yonkoma comic where a stick figure interacts with an AI-generated image that has actually has fingers. The humor      comes from the stick figure earnestly commenting on how realistic the AI image looks, oblivious to its glaring anatomical mistakes. They look down at their fingerless hands and realize that they can't really comment on what's real or not. 
+    I implemented a ghostly shader using the Fresnel effect to create an ethereal rim-lighting effect. By adjusting the Fresnel falloff and blending it with emissive properties, the shader enhances the spectral appearance, making the edges glow while maintaining translucency. This technique helps achieve a convincing ghostly presence in real-time rendering.
     <br />
     <a href="https://github.com/woumjai/Assignment01_4-Koma/blob/main/pdf/First_Name_Ei_Last_Name_Eye.pdf"><strong>Link to PDF Report »</strong></a>
     <br />
@@ -35,11 +35,12 @@ Assignment 1, VIZA 626 Generative Art &amp; Design (Spring 2025)
 
 [![4-comma][images-fig1]](https://example.com)
 
-Figure 1. This is my 4-comma, explain what this 4-comma is trying to encaptulate. *Ensure your image is high-definition, with a width greater than 3500 pixels. If your imafe is not wide enough, it will not fill the page!
+Figure 1. Ghostly shader showcasing the Fresnel effect. The images display variations in parameter adjustments, including changes to the Fresnel exponent, intensity, and emissive blending, which affect the glow and translucency of the shader.
 
 <!-- Abstract -->
 ## Abstract
 Your abstract here: 50 words here.
+This project explores the use of the Fresnel effect to create a ghostly shader with an ethereal rim-lighting effect. By adjusting Fresnel falloff and emissive properties, the shader enhances translucency and glow, achieving a spectral appearance. Parameter variations demonstrate how subtle changes influence the final visual result in real-time rendering.
 
 Example of how to make a list:
 There are many great README templates available on GitHub.
@@ -53,7 +54,7 @@ Of course, no one template will serve all projects since your needs may be diffe
 
 [![4-comma][images-fig2]](https://example.com)
 
-Figure 2. Related works in this domain. 
+Figure 2. Fresnel algorithm used in the ghostly shader. This implementation calculates the rim-lighting effect based on the view angle, enhancing the glow and translucency. Adjusting the exponent and intensity parameters controls the falloff, influencing the final appearance of the spectral effect.
 
 <!-- Introduction and Related Works -->
 ## Introduction and Related Works
