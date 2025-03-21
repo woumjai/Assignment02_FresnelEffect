@@ -24,7 +24,7 @@ Assignment 1, VIZA 626 Generative Art &amp; Design (Spring 2025)
   <p align="center">
     I implemented a ghostly shader using the Fresnel effect to create an ethereal rim-lighting effect. By adjusting the Fresnel falloff and blending it with emissive properties, the shader enhances the spectral appearance, making the edges glow while maintaining translucency. This technique helps achieve a convincing ghostly presence in real-time rendering.
     <br />
-    <a href="https://github.com/woumjai/Assignment01_4-Koma/blob/main/pdf/First_Name_Ei_Last_Name_Eye.pdf"><strong>Link to PDF Report »</strong></a>
+    <a  /> 
     <br />
     <br />
     <a href="https://carhua.myportfolio.com">Carolyn Hua</a>
@@ -33,24 +33,14 @@ Assignment 1, VIZA 626 Generative Art &amp; Design (Spring 2025)
   </p>
 </div>
 
-[![4-comma][images-fig1]](https://example.com)
+[![fresnel][images-fig1]](https://example.com)
 
 Figure 1. Ghostly shader showcasing the Fresnel effect. The images display variations in parameter adjustments, including changes to the Fresnel exponent, intensity, and emissive blending, which affect the glow and translucency of the shader.
 
 <!-- Abstract -->
 ## Abstract
-Your abstract here: 50 words here.
-This project explores the use of the Fresnel effect to create a ghostly shader with an ethereal rim-lighting effect. By adjusting Fresnel falloff and emissive properties, the shader enhances translucency and glow, achieving a spectral appearance. Parameter variations demonstrate how subtle changes influence the final visual result in real-time rendering.
-
-Example of how to make a list:
-There are many great README templates available on GitHub.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+Your abstract here: 100 words here.
+The Fresnel effect describes the relationship between a surface's reflectivity and the viewing angle, making it a critical component in realistic shading. This paper explores the significance of Fresnel in rendering and its role in conveying translucency and energy in visual effects. I detail the implementation of the Fresnel term in a custom ghostly shader, using it to enhance edge lighting and create an ethereal appearance. By manipulating Fresnel intensity and blending it with emissive properties, the shader dynamically responds to viewing angles, reinforcing an illusion of spectral presence. 
 
 [![4-comma][images-fig2]](https://example.com)
 
@@ -59,10 +49,11 @@ Figure 2. Fresnel algorithm used in the ghostly shader. This implementation calc
 <!-- Introduction and Related Works -->
 ## Introduction and Related Works
 
-Your Introduction and Related Works here: 200 words here.
+Your Introduction and Related Works here: 200 words here.(3 refs)
 
-Here I talk about how these works have paved the way for my project. Recent research shows that sense of belonging is evoked when using mixed realty [1], and my work is inspired by this xyz. Another recent project examines the beauty of symmetry in evolution [2] that my work highlights in my 4-comma cell number 4. 
-Notable work by Kamp in 2019, highlights the beauty that could be found in nature and how it connects to design [3] and my work show the influence of that visual in 4-comma cell number 3. 
+In real-world optics, the Fresnel effect is influenced by polarization, which affects how light reflects based on the orientation of the light wave. However, in computer graphics, particularly for real-time rendering, this effect is often simplified to optimize performance. By omitting polarization, we focus on the relationship between viewing angle and surface reflectivity, a common CG approach that balances realism with efficiency. As John Hable discusses in his blog on filmic rendering [1], Fresnel is present in all materials, influencing how they interact with light, even if they don’t appear reflective at first glance.
+
+For the purposes of this paper, I explore the simplified Fresnel equation, widely used in CG workflows to create materials that react naturally to varying angles of view. I apply this concept in a ghostly shader designed to enhance the illusion of an ethereal presence. By leveraging Fresnel-driven edge lighting, the shader creates a spectral glow that dynamically responds to the viewer’s perspective. This effect mimics how translucent or semi-transparent materials interact with light, reinforcing the ghostly aesthetic. While avoiding the complexity of full light interactions, this shader demonstrates how the Fresnel effect can be creatively applied in stylized rendering to achieve compelling visual results.
 
 How to use subsection:
 
@@ -72,7 +63,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 ## Methodology
 
-Your Methodology and Related Works here: 200 words here.
+Your Methodology and Related Works here: 300 words here.
 
 [![4-comma][images-fig3]](https://example.com)
 
@@ -83,14 +74,14 @@ Figure 3. Methodology and Workflow: This figure should provide a comprehensive o
 Figure 4. description for Figure 5
 
 ## Result and Future Work
-Your Result and Future Work here: 100 words here.
+Your Result and Future Work here: 200 words here.
 
 [![4-comma][images-fig5]](https://example.com)
 
 Figure 5. description for Figure 5
 
 ## Conclusion
-Your Conclusion here: 50 words here
+Your Conclusion here: 100 words here
 
 [![4-comma][images-fig6]](https://example.com)
 
@@ -98,9 +89,9 @@ Figure 6. description for Figure 6
 
 <!-- Bibliography -->
 ## Bibliography 
-[1] Galanter, Philip. "Generative art theory." A companion to digital art (2016): 146-180. *Copy of MLA format
+[1] Hable, John. "Everything Has Fresnel." Filmic Worlds, 5 Dec. 2010, http://filmicworlds.com/blog/everything-has-fresnel/.
 
-[2] Kim, You-Jin, Misha Sra, and Tobias Höllerer. "Audience Amplified: Virtual Audiences in Asynchronously Performed AR Theater." 2024 IEEE International Symposium on Mixed and Augmented Reality (ISMAR). IEEE, 2024.
+[2] Halladay, Kyle. "Fresnel Shaders: From the Ground Up." Kyle Halladay, 18 Feb. 2014, https://kylehalladay.com/blog/tutorial/2014/02/18/Fresnel-Shaders-From-The-Ground-Up.html.
 
 [3] Kim, You-Jin, Misha Sra, and Tobias Höllerer. "Audience Amplified: Virtual Audiences in Asynchronously Performed AR Theater." 2024 IEEE International Symposium on Mixed and Augmented Reality (ISMAR). IEEE, 2024. 
 
