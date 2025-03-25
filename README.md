@@ -52,8 +52,10 @@ Figure 2. Fresnel algorithm used in the ghostly shader. This implementation calc
 Your Introduction and Related Works here: 200 words here.(3 refs)
 
 In real-world optics, the Fresnel effect is influenced by polarization, which affects how light reflects based on the orientation of the light wave. However, in computer graphics, particularly for real-time rendering, this effect is often simplified to optimize performance. By omitting polarization, we focus on the relationship between viewing angle and surface reflectivity, a common CG approach that balances realism with efficiency. As John Hable discusses in his blog on filmic rendering [1], Fresnel is present in all materials, influencing how they interact with light, even if they don’t appear reflective at first glance.
+This paper explores how the Fresnel effect can be leveraged in shading techniques, such as in a custom ghostly shader, to create an ethereal appearance. By manipulating the intensity and blending it with emissive properties, the shader dynamically responds to viewing angles, enhancing the illusion of spectral presence.
 
-For the purposes of this paper, I explore the simplified Fresnel equation, widely used in CG workflows to create materials that react naturally to varying angles of view. I apply this concept in a ghostly shader designed to enhance the illusion of an ethereal presence. By leveraging Fresnel-driven edge lighting, the shader creates a spectral glow that dynamically responds to the viewer’s perspective. This effect mimics how translucent or semi-transparent materials interact with light, reinforcing the ghostly aesthetic. While avoiding the complexity of full light interactions, this shader demonstrates how the Fresnel effect can be creatively applied in stylized rendering to achieve compelling visual results.
+In Unreal Engine,the Fresnel effect can be leveraged to enhance visual storytelling, particularly in materials that require a sense of translucency or otherworldly presence. By carefully manipulating Fresnel-based shading, artists can create much more complex shading and lighting on assets, allowing for a more realistic rendering of surfaces by accurately simulating how light interacts with different materials. This effect enhances the perception of depth and realism, making objects appear more naturally integrated into their environments.
+
 
 How to use subsection:
 
@@ -93,9 +95,7 @@ Figure 6. description for Figure 6
 
 [2] Halladay, Kyle. "Fresnel Shaders: From the Ground Up." Kyle Halladay, 18 Feb. 2014, https://kylehalladay.com/blog/tutorial/2014/02/18/Fresnel-Shaders-From-The-Ground-Up.html.
 
-[3] Kim, You-Jin, Misha Sra, and Tobias Höllerer. "Audience Amplified: Virtual Audiences in Asynchronously Performed AR Theater." 2024 IEEE International Symposium on Mixed and Augmented Reality (ISMAR). IEEE, 2024. 
-
-
+[3] Epic Games, Inc., “Using Fresnel in your Unreal Engine materials,” Epic Games Developer Documentation, Mar. 24, 2025. [Online]. Available: https://dev.epicgames.com/documentation/en-us/unreal-engine/using-fresnel-in-your-unreal-engine-materials.
 
 <!-- CONTACT -->
 ## Contact
