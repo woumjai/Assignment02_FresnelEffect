@@ -51,8 +51,6 @@ Figure 2. Fresnel algorithm used in the ghostly shader. This implementation calc
 [![fresnel_lake][images-fig3]](https://example.com)
 Figure 3. Fresnel on a lake. As the viewing angle becomes steeper, the water appears more reflective, whereas at shallower angles, it looks less reflective and more transparent.
 
-Your Introduction and Related Works here: 200 words here.(3 refs)
-
 In real-world optics, the Fresnel effect is influenced by polarization, which affects how light reflects based on the orientation of the light wave. However, in computer graphics, particularly for real-time rendering, this effect is often simplified to optimize performance. By omitting polarization, we focus on the relationship between viewing angle and surface reflectivity, a common CG approach that balances realism with efficiency. As John Hable discusses in his blog on filmic rendering [1], Fresnel is present in all materials, influencing how they interact with light, even if they don’t appear reflective at first glance.
 This paper explores how the Fresnel effect can be leveraged in shading techniques, such as in a custom ghostly shader, to create an ethereal appearance. By manipulating the intensity and blending it with emissive properties, the shader dynamically responds to viewing angles, enhancing the illusion of spectral presence.
 
