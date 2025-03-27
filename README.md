@@ -72,10 +72,10 @@ Your Methodology and Related Works here: 300 words here.
 In Unreal Engine, the Fresnel Material Expression calculates a falloff effect using the dot product between the surface normal and the camera direction [3]. This value determines how much of the Fresnel effect is applied; 0 when the normal faces the camera directly (no effect) and 1 when perpendicular (full effect). To develop my ghostly shader, I expanded on this Fresnel effect by adjusting its intensity and integrating emissive properties. By modifying the Fresnel exponent, I controlled the sharpness of the glow at different viewing angles. Higher exponents concentrated the glow along the edges, while lower exponents produced a softer, more diffused effect, reinforcing the ethereal aesthetic.
 
 <p align="center">
-  <a href="https://example.com">
+  <a href="https://example.com](https://github.com/woumjai/Assignment02_FresnelEffect/blob/main/Assignment02_pics/inner_fresnel.png">
     <img src="images-fig6" alt="Inner Fresnel Node Graph" width="45%">
   </a>
-  <a href="https://example.com">
+  <a href="https://example.com](https://github.com/woumjai/Assignment02_FresnelEffect/blob/main/Assignment02_pics/outline_fresnel.png">
     <img src="images-fig7" alt="Outer Fresnel Node Graph" width="45%">
   </a>
 </p>
