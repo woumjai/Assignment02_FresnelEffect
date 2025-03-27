@@ -67,7 +67,6 @@ In Unreal Engine,the Fresnel effect can be leveraged to enhance visual storytell
 [![shader_graph][images-fig5]](https://example.com)
 Figure 5. This is my complete shader graph used to build my ghostly shader in Unreal. 
 
-Your Methodology and Related Works here: 300 words here.
 In Unreal Engine, the Fresnel Material Expression calculates a falloff effect using the dot product between the surface normal and the camera direction [3]. This value determines how much of the Fresnel effect is applied; 0 when the normal faces the camera directly (no effect) and 1 when perpendicular (full effect). To develop my ghostly shader, I expanded on this Fresnel effect by adjusting its intensity and integrating emissive properties. By modifying the Fresnel exponent, I controlled the sharpness of the glow at different viewing angles. Higher exponents concentrated the glow along the edges, while lower exponents produced a softer, more diffused effect, reinforcing the ethereal aesthetic.
 
 [![inner_fresnel][images-fig6]](https://example.com)
@@ -90,7 +89,6 @@ Figure 8. My shader on the mannequin
 
 Figure 9. My ghostly reference that I worked off of and used as an aesthetic basis. 
 
-Your Result and Future Work here: 200 words here.
 The implemented Fresnel-based shader successfully enhanced the perception of translucency and spectral presence in Unreal Engine. By adjusting the Fresnel exponent, intensity, and emissive blending, the shader created a dynamic interaction with viewing angles, reinforcing the illusion of an ethereal form. Testing across different assets demonstrated its versatility, effectively improving the realism of ghostly and translucent materials while maintaining real-time performance.
 
 For future work, Fresnel shading can be explored as a tool for stylization beyond realism. Many non-photorealistic rendering techniques, such as toon shading and painterly effects, use Fresnel to create bold rim highlights that emphasize form and silhouette. By modifying the Fresnel term with custom color gradients, artists can achieve unique aesthetic effects suited for animation, interactive media, or experimental visual styles. Additionally, integrating procedural noise or texture-driven Fresnel variations could enhance artistic expression by allowing more dynamic and unconventional shading responses. Expanding the shader’s flexibility in this way would open new possibilities for creative stylization in real-time rendering.
@@ -100,7 +98,7 @@ For future work, Fresnel shading can be explored as a tool for stylization beyon
 Figure 10. Cel Shading 
 
 ## Conclusion
-[![fresnel_comp][images-fig10]](https://example.com)
+[![fresnel_comp][images-fig11]](https://example.com)
 
 Figure 11. Fresnel for realistic shading
 
@@ -155,10 +153,10 @@ VIZA 626 Class Website: [https://sites.google.com/view/viza626/](https://sites.g
 [images-fig2]: Assignment02_pics/fresnel_eq.png
 [images-fig3]: Assignment02_pics/lake_ex.jpg
 [images-fig4]: Assignment02_pics/incidentAngle.png
-[images-fig5]: Assignment02_pics/fig6.png
+[images-fig5]: Assignment02_pics/shader_graph_full.png
 [images-fig6]: Assignment02_pics/Fresnel_inner.png
 [images-fig7]: Assignment02_pics/Fresnel_outer.png
-[images-fig8]: Assignment02_pics/fig6.png
+[images-fig8]: Assignment02_pics/test_manny.png
 [images-fig9]: Assignment02_pics/ghostly_ref.png
 [images-fig10]: Assignment02_pics/Toon-shader.jpg
 [images-fig11]: Assignment02_pics/fresnel_comp.jpg
