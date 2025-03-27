@@ -71,12 +71,19 @@ Figure 5. This is my complete shader graph used to build my ghostly shader in Un
 Your Methodology and Related Works here: 300 words here.
 In Unreal Engine, the Fresnel Material Expression calculates a falloff effect using the dot product between the surface normal and the camera direction [3]. This value determines how much of the Fresnel effect is applied; 0 when the normal faces the camera directly (no effect) and 1 when perpendicular (full effect). To develop my ghostly shader, I expanded on this Fresnel effect by adjusting its intensity and integrating emissive properties. By modifying the Fresnel exponent, I controlled the sharpness of the glow at different viewing angles. Higher exponents concentrated the glow along the edges, while lower exponents produced a softer, more diffused effect, reinforcing the ethereal aesthetic.
 
-[![inner_fresnel][images-fig6]](https://example.com)
-Figure 6. Inner fresnel node graph. 
+<p align="center">
+  <a href="https://example.com">
+    <img src="images-fig6" alt="Inner Fresnel Node Graph" width="45%">
+  </a>
+  <a href="https://example.com">
+    <img src="images-fig7" alt="Outer Fresnel Node Graph" width="45%">
+  </a>
+</p>
 
-
-[![outer_fresnel][images-fig7]](https://example.com)
-Figure 7. Outer fresnel node graph. 
+<p align="center">
+  <b>Figure 6.</b> Inner Fresnel node graph &nbsp;&nbsp;&nbsp;&nbsp; 
+  <b>Figure 7.</b> Outer Fresnel node graph
+</p>
 
 To further enhance the spectral presence, I blended the Fresnel term with an emissive color, adjusting bias and scale parameters to control brightness and falloff. This allowed me to fine-tune the shader’s glow intensity and ensure a seamless transition between light and shadow. Additionally, I employed lerp (linear interpolation) functions to dynamically balance the Fresnel effect with other shading components, preventing abrupt transitions and maintaining realism in motion.
 
@@ -160,8 +167,8 @@ VIZA 626 Class Website: [https://sites.google.com/view/viza626/](https://sites.g
 [images-fig3]: Assignment02_pics/fig3.jpg
 [images-fig4]: Assignment02_pics/fig4.png
 [images-figToon]: Assignment02_pics/Toon-shader.jpg
-[images-fig6]: Assignment02_pics/fig6.png
-[images-fig7]: Assignment02_pics/fig6.png
+[images-fig6]: Assignment02_pics/inner_fresnel.png
+[images-fig7]: Assignment02_pics/outline_fresnel.png
 [images-fig8]: Assignment02_pics/fig6.png
 [images-fig9]: Assignment02_pics/ghostly_ref.png
 [images-fig10]: Assignment02_pics/fig6.png
